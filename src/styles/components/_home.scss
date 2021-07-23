@@ -1,0 +1,46 @@
+
+.anuncio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+ 
+  .container-fluid{
+    text-align: center; 
+// box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+    .row{
+    // background-color: $color-light;
+    p{
+      font-family: $font2;
+      font-size: 1.5rem;
+    }
+    }
+  }
+}
+.family{
+  margin-bottom: 40px;
+  h3{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.5rem;
+
+  }
+}
+
+.family .container {
+  height: 500px;
+  background: url(https://cdn.pixabay.com/photo/2020/05/25/15/55/selfie-5219202_960_720.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: $color-white;
+  padding: 20px 60px;
+//    -webkit-box-shadow: 5px 5px 15px 5px #141414; 
+// box-shadow: 5px 5px 15px 5px #141414;
+ 
+  p{
+    font-family: $font2;
+    font-size: 1.5rem;
+  }
+}

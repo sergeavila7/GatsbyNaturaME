@@ -1,0 +1,72 @@
+.contact .container{
+    max-width: 800px;
+    padding: 10px;
+}
+
+.form-contact{
+    background: $color-white;
+    padding: 30px 80px;
+    box-shadow: 5px 5px 15px 5px #000000;
+
+
+}
+.submit-btn{
+    display: inline-block;
+    width: 100%;
+    background: $color-dark;
+    color: $color-white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    &:hover{
+        background: cadetblue;
+    }
+}
+
+.input-text, .textarea{
+    width: 80%;
+    font-size: 1rem;
+    padding: 5px;
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+.input-container{
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    .icon{
+        min-width: 50px;
+        text-align: center;
+        color: $color-gray;
+    }
+}
+
+.textarea-container{
+    width:100%;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    .icon{
+        padding: 20px 0px;
+        font-size: 35px;
+        min-width: 50px;
+        text-align: center;
+        color: $color-gray;
+    }
+}
+
+.input-text:valid,
+.textarea:valid {
+    background: cadetblue;
+
+}
+
+// .input-text:invalid,
+// .textarea:invalid {
+//     background: red;
+// }
